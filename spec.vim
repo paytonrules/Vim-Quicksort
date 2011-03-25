@@ -16,7 +16,7 @@ function! Split(first, last)
   endfor
 
   call Swap(a:first, splitPoint)
-  return l:splitPoint
+  return splitPoint
 endfunction
 
 function! s:SortGlobalList(first, last)
